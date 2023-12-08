@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        html{
+            font-family: "jost",sans-serif;
+            background-color: aliceblue;
+        }
+        h1{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1>HTML FORM</h1>
+<form >
+    <div>
+        <label for="username">Username</label>
+        <input type="text" name="" id="username"/>
+    </div>
+    <div>
+        <label for="email">Enter your Email</label>
+        <input type="text" name="" id="email"/>
+    </div>
+    <div>
+        <label for="textarea">Message</label>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+    </div>
+    <input type="submit" value="Submit" >
+</form>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form >
+    <div>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter your password"/>
+    </div>
+    <div>
+        <label for="number">Mob number</label>
+        <input type="number" max="5"value="5" min="1" />
+    </div>
+    <div>
+        <label for="gender"></label>
+        <input type="radio" name="gender" value="male"/>male
+        <input type="radio" name="gender" value="female"/>Female
+    </div>
+    <div>
+        <label for="hobbies">Hobbies</label>
+        <input type="checkbox" name="intrest" value="music"/>music
+        <input type="checkbox" name="intrest" value="sport"/>Sport
+    </div>
+
+
+
+    <div>
+        <label for="country"> select a Country</label>
+        <select name="country" id="country" list="countries">
+           <datalist id="country">
+            <option value="usa">Usa</option>
+            <option value="ind">Ind</option>
+            <option value="uk">UK</option>
+           </datalist>
+
+        </select>
+    </div>
+    <div>
+        <label for="file">Select file</label>
+        <input type="file" name="fileupload" id=""/>
+    </div>
+    <button type="submit">Submit</button>
+    <input type="submit" value="Submit" >
+
+   </form> 
+</body>
+</html>
